@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+	<head>
+		<!-- Card info -->
+		<title>Choose Adventure</title>
+		<meta name="description" content="Game">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- 		<meta name="kik-prefer" content="true">
+		<link rel="kik-icon" href="/img/icon.png"> -->
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="http://cdn.kik.com/app/1/default.css">
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+
+	<body>
+		<!-- Pages -->
+		<!-- First set of 3 choices -->
+		<div class="app-page" data-page="home">
+			<div class="app-topbar">
+				<div class="app-title">Home page</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h2>You Are About To Have An Amazing Adventure</h2>
+				</div>
+				<div>
+					<h3>Who Are You?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page1">A wise ol' chap</li>
+						<li class="app-button" data-target="page2">A crafty young woman</li>
+						<li class="app-button" data-target="page3">A nobody</li>
+					</ul>
+				</div>
+<!-- 				<div class="app-section">
+					<div class="app-button" data-target="page2">Go to Page 2</div>
+				</div> -->
+			</div>
+		</div>
+
+		<!-- TIER 2 -->
+		<!-- Choice 1 -->
+		<div class="app-page" data-page="page1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You are late for work! What should you do?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page1-1">Go back to bed</li>
+						<li class="app-button" data-target="page1-2">Run! Better late than never!</li>
+						<li class="app-button" data-target="page1-3">Stroll in whenever. You should be the boss</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2 -->
+		<div class="app-page" data-page="page2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Today is your day off because you don't have a job. How wonderful for you! But you still need to make the rent. Where should you look for money today?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page2-1">Downtown, of course!</li>
+						<li class="app-button" data-target="page2-2">Let the fates guide you in your neighborhood</li>
+						<li class="app-button" data-target="page2-3">Go North! You heard a phrase like that once</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3 -->
+		<div class="app-page" data-page="page3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Nobody knows you because you are new here! Let's change that. Where should we explore first?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page3-1">Stay close to home. I'm scared.</li>
+						<li class="app-button" data-target="page3-2">I heard downtown is hopping and hoppy</li>
+						<li class="app-button" data-target="page3-3">Go fly a kite in the park. Someone told you to do that once</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- TIER 3 -->
+		<!-- Choice 1-1 -->
+		<div class="app-page" data-page="page1-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Wow you are lazy! After a refreshing sleep you decide to take on the world! Where should you go?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page1-1-1">Downtown!</li>
+						<li class="app-button" data-target="page1-1-2">I don't want to leave the neighborhood</li>
+						<li class="app-button" data-target="page1-1-3">A park for more napping</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-2 -->
+		<div class="app-page" data-page="page1-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You are not as young as you use to be but you are making great time. You reach downtown. There are two ways to go. The fastest is through the back alleys or the safe route you always take.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page1-2-1">I'll risk it! Go the unsafe faster route</li>
+						<li class="app-button" data-target="page1-2-2">Safety first</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-3 -->
+		<div class="app-page" data-page="page1-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>While on your relaxing stroll you come across a neighborhood full of hustle and bustle. Should you find out what the fuss is about or continue to work?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page1-3-1">Ask someone what's going on</li>
+						<li class="app-button" data-target="page1-3-2">Keep strolling to work</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-1 -->
+		<div class="app-page" data-page="page2-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Downtown is where the real action is. You have many skills. Which would like to practice today?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page2-1-1">Pickpocket in the square.</li>
+						<li class="app-button" data-target="page2-1-2">Convince a store owner to give you work for the day</li>
+						<li class="app-button" data-target="page2-1-3">Sell some of your hand made soap to those smelly workers.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-2 -->
+		<div class="app-page" data-page="page2-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>The fates are interesting. A strange man is waving at you from across the street. What do you do?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page2-2-1">Get out of there! What a creep!</li>
+						<li class="app-button" data-target="page2-2-2">Wave back and let him approach you</li>
+						<li class="app-button" data-target="page2-2-3">Show no fear and walk over to him</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-3 -->
+		<div class="app-page" data-page="page2-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Not much is happening north of here. You see a nice park. Should you take a nap there or walk around and get some excercise?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page2-3-1">Yes, life is tiring</li>
+						<li class="app-button" data-target="page2-3-2">Work those muscles!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-1 -->
+		<div class="app-page" data-page="page3-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Your neighborhood is a fine place to be. You see a crowd beginning to form outside of your local bakery. Should you go check it out or realize it's none of your concern.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page3-1-1">Find out what's happening</li>
+						<li class="app-button" data-target="page3-1-2">None of my business. I could get hurt</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-2 -->
+		<div class="app-page" data-page="page3-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You came to Portland to experience life and downtown is the heart of it. How should you get there?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page3-2-1">Walk. Good for the lungs.</li>
+						<li class="app-button" data-target="page3-2-2">Take the trolley. Isn't it free?</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-3 -->
+		<div class="app-page" data-page="page3-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You grab your kite (the only item you moved to Portland with) and head to the nearest park. Along the way you see a face from the past. Could it be? Yes, it's a girl you had a crush on back home. You start waving. What now?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page3-3-1">Run over and confess your love</li>
+						<li class="app-button" data-target="page3-3-2">Wait for her to see you. Don't be creepy</li>
+						<li class="app-button" data-target="page3-3-3">You must be imagining her. Just keep walking</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- TIER 4 -->
+		<!-- Choice 1-1-1 -->
+		<div class="app-page" data-page="page1-1-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-1-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Downtown sure is hazy today. Is there a fire?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Who cares? Go to work.</li>
+						<li class="app-button" data-target="page0">Where there's smoke something interesting is going on. Find out!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-1-2 -->
+		<div class="app-page" data-page="page1-1-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-1-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Yes it is nice here. And it's almost lunchtime. Hotdog or pizza?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Hot Dog</li>
+						<li class="app-button" data-target="page0">Pizza</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-1-3 -->
+		<div class="app-page" data-page="page1-1-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-1-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Oh yes a nap in the park sounds delightful.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Nap on</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-2-1 -->
+		<div class="app-page" data-page="page1-2-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-2-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You didn't get to being you without taking some risk. But now you remember why. Two unruly looking brutes are standing in your way. Should you...</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Push your way through</li>
+						<li class="app-button" data-target="page0">Ask them politely if you may pass</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-2-2 -->
+		<div class="app-page" data-page="page1-2-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-2-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You go your normal route and arrive at work finally. Your boss is none too pleased. When he start yelling you...</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Give him a great excuse</li>
+						<li class="app-button" data-target="page0">Zone out and think of something else</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-3-1 -->
+		<div class="app-page" data-page="page1-3-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-3-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You ask a woman next to you what's happening. She answers that the president of the US is inside the bakery buying bread</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">The president? Go see for yourself!</li>
+						<li class="app-button" data-target="page0">Tell the woman she's crazy</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 1-3-2 -->
+		<div class="app-page" data-page="page1-3-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 1-3-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You are too important for local foolishness. But the crowd is too thick to walk through.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Start yelling for them to move</li>
+						<li class="app-button" data-target="page0">Cross the street</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-1-1 -->
+		<div class="app-page" data-page="page2-1-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-1-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Pioneer Square is full of folks today. There is also a police officer. You need to get rid of him.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Tell him you saw a robbery down the street</li>
+						<li class="app-button" data-target="page0">Ask him dumb tourist questions</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-1-2 -->
+		<div class="app-page" data-page="page2-1-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-1-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You head into the nearest pub and convince the owner to hire you to clean up the place.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Clean the place until it sparkles!</li>
+						<li class="app-button" data-target="page0">Waste time by talking to customers</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-1-3 -->
+		<div class="app-page" data-page="page2-1-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-1-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You unroll a blanket and place your soaps out for passerbys to look at. A rich looking woman picks a bar and walks off with it.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Stop her! Thief!</li>
+						<li class="app-button" data-target="page0">Yell insults but stay with your stuff</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-2-1 -->
+		<div class="app-page" data-page="page2-2-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-2-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You run quickly away from the creep and in your panic trip and spill your bag. Should you...</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Keep going and leave your things behind</li>
+						<li class="app-button" data-target="page0">Nothing is worth losing your things over. Get it together!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-2-2 -->
+		<div class="app-page" data-page="page2-2-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-2-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>He seems polite enough. He crosses the street quickly. He looks familiar. Is it? Yes, it's a boy you knew back home...so long ago.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Ask him for money</li>
+						<li class="app-button" data-target="page0">Go for a walk in the park with him</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-2-3 -->
+		<div class="app-page" data-page="page2-2-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-2-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You charge over to the weirdo and as you approach you realize you know him afterall. He's from your home town. And there's a reason you left.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Deny you know him</li>
+						<li class="app-button" data-target="page0">Catch up with him</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-3-1 -->
+		<div class="app-page" data-page="page2-3-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-3-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You deserve a nap.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Nap on</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 2-3-2 -->
+		<div class="app-page" data-page="page2-3-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 2-3-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>While you are walking you come across a kite on the ground. Do you...</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Fly it! Such fun!</li>
+						<li class="app-button" data-target="page0">Leave it. It's not mine.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-1-1 -->
+		<div class="app-page" data-page="page3-1-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-1-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You ask a woman next to you what's happening. She answers that the president of the US is inside the bakery buying bread</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">The president? Go see for yourself!</li>
+						<li class="app-button" data-target="page0">Tell the woman she's crazy</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-1-2 -->
+		<div class="app-page" data-page="page3-1-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-1-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>It's none of your business and as you walk down the street a car pulls next to you. A man asks you if you want to make some money.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Sounds great! I like money!</li>
+						<li class="app-button" data-target="page0">Sounds risky. Keep walking.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-2-1 -->
+		<div class="app-page" data-page="page3-2-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-2-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Your walk feels terrific. What a beautiful city! As you cross the bridge you see a haze building. Is it a fire?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Turn back. This could be dangerous!</li>
+						<li class="app-button" data-target="page0">Find the fire - maybe you can help!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-2-2 -->
+		<div class="app-page" data-page="page3-2-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-2-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>The trolley is very exciting but crowded. People are too close to you.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Get off and walk the rest of the way</li>
+						<li class="app-button" data-target="page0">Demand some room!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-3-1 -->
+		<div class="app-page" data-page="page3-3-1">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-3-1</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Such bravery and romance! She takes the news well and asks for money. Should you...</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Give her what you have!</li>
+						<li class="app-button" data-target="page0">Tell her sorry and offer a walk in the park instead</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-3-2 -->
+		<div class="app-page" data-page="page3-3-2">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-3-2</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>You keep waving and smiling like a fool - but it works! She begins to walk over and you see a car driving too fast towards her. Oh no!</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Jump in the street to save her!</li>
+						<li class="app-button" data-target="page0">Maybe that wasn't her afterall. No sense in both of you getting hurt</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Choice 3-3-3 -->
+		<div class="app-page" data-page="page3-3-3">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">Page 3-3-3</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h3>Your mind races with memories. Now you will never know. And now you miss home. Turn back and settle your mind.</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="page0">Turn around you fool!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- END -->
+
+		<div class="app-page" data-page="page0">
+			<div class="app-topbar">
+				<div class="app-button left" data-back="true">Back</div>
+				<div class="app-title">End</div>
+			</div>
+			<div class="app-content">
+				<div>
+					<h2>Your Adventure Is Over!</h2>
+				</div>
+				<div>
+					<h3>Wasn't that fun?</h3>
+					<ul class="app-list">
+						<li class="app-button" data-target="home">Start over!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Scripts -->
+		<script src="/zerver/API.js"></script>
+		<script src="http://zeptojs.com/zepto.min.js"></script>
+		<script src="http://cdn.kik.com/cards/0/cards.js"></script>
+		<script src="http://cdn.kik.com/app/1/app.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>
